@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace LanchesMac.Reposiitories
 {
-    interface ILancheRepository
+   public interface ILancheRepository
     {
         IEnumerable<Lanche> Lanches { get; }
+        IEnumerable<Lanche> LanchesPreferidos { get; }
+        Lanche GetLancheById(int lancheId);
     }
 }

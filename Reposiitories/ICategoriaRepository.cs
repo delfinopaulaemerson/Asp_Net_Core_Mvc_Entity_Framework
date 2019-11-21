@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LanchesMac.Reposiitories
 {
-    interface ICategoriaRepository
+   public interface ICategoriaRepository
     {
-        IEnumerable<Categoria> Lanches { get; }
+        IEnumerable<Categoria> Lanches { get; set; }
     }
 }
