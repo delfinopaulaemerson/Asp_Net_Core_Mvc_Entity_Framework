@@ -1,4 +1,5 @@
 ﻿using LanchesMac.Reposiitories;
+using LanchesMac.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers
@@ -19,10 +20,16 @@ namespace LanchesMac.Controllers
             ViewBag.Lanche = "Lanches";
             ViewData["Categoria"] = "Categoria";
 
-            var lanches = _lancheRespository.Lanches;
-            
+            // var lanches = _lancheRespository.Lanches;
+
             //passando informacoes para view
-            return View(lanches);
+            //return View(lanches);
+
+            //implementando o padrão view model
+            var lanchelistViewModel = new LancheListViewModel();
+            lanchelistViewModel.Lanches = _lancheRespository.Lanches;
+            lanchelistViewModel.CategoriaAtual = "Categoria Atual";
+            return View(lanchelistViewModel);
         }
     }
 }
