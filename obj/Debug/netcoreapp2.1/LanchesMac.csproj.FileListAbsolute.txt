@@ -33,4 +33,4 @@ C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\LanchesMac.dll
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\LanchesMac.pdb
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\LanchesMac.csproj.CopyComplete
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Lanche\List.cshtml.g.cs
-C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LnachesResumo.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LanchesResumo.cshtml.g.cs
