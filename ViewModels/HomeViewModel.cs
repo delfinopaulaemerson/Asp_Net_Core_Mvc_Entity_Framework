@@ -4,11 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LanchesMac.Reposiitories
+namespace LanchesMac.ViewModels
 {
-   public interface ICategoriaRepository
+    public class HomeViewModel
     {
-        IEnumerable<Categoria> Lanches { get; set; }
-        
+        public IEnumerable<Lanche> LanchesPreferidos { get; set; }
     }
 }

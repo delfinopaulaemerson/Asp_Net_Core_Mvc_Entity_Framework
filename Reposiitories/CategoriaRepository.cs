@@ -13,6 +13,8 @@ namespace LanchesMac.Reposiitories
             _context = contexto;
         }
 
+      
+
         IEnumerable<Categoria> ICategoriaRepository.Lanches { get => _context.Categorias; set => throw new NotImplementedException(); }
     }
 }
