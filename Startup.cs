@@ -72,6 +72,14 @@ namespace LanchesMac
 
             app.UseMvc(routes =>
             {
+
+                routes.MapRoute("areaRoute", "{area:exists}/{Controller=Admin}/{Action=Index}/{id?}");
+
+                routes.MapRoute(
+                    name: "categoriaFiltro",
+                    template: "Lanche/{action}/{categoria?}",
+                    defaults: new { Controller = "Lanche", action = "List" });
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");

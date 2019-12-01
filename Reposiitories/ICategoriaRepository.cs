@@ -8,7 +8,7 @@ namespace LanchesMac.Reposiitories
 {
    public interface ICategoriaRepository
     {
-        IEnumerable<Categoria> Lanches { get; set; }
-        
+        IEnumerable<Categoria> Categorias { get; set; }
+       
     }
 }

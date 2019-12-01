@@ -15,6 +15,6 @@ namespace LanchesMac.Reposiitories
 
       
 
-        IEnumerable<Categoria> ICategoriaRepository.Lanches { get => _context.Categorias; set => throw new NotImplementedException(); }
+        IEnumerable<Categoria> ICategoriaRepository.Categorias { get => _context.Categorias; set => throw new NotImplementedException(); }
     }
 }
