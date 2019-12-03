@@ -69,5 +69,23 @@ namespace LanchesMac.Controllers
             return View(lanche);
         }
 
+        public IActionResult Search(string searchString)
+        {
+            String _searchString = searchString;
+            IEnumerable<Lanche> lanches;
+
+            if (string.IsNullOrEmpty(_searchString))
+            {
+                lanches = _lancheRespository.Lanches.OrderBy(l => l.LancheId);
+            }
+            else
+            {
+                lanches = _lancheRespository.Lanches.Where(l => l.Nome.ToLower().Contains(_searchString.ToLower())) ;
+            }
+
+            return View("~/Views/Lanche/List.cshtml", new LancheListViewModel {Lanches = lanches, CategoriaAtual="Todos os lanches" });
+        }
+
+
     }
 }

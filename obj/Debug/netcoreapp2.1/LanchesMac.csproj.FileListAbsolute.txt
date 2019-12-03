@@ -40,3 +40,5 @@ C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Contato\Index.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoriaMenu\Default.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Lanche\Details.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Checkout.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\CheckoutCompleto.cshtml.g.cs
