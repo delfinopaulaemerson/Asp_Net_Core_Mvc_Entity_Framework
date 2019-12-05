@@ -42,3 +42,8 @@ C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Lanche\Details.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Checkout.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\CheckoutCompleto.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\LogOut.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedIn.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

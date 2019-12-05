@@ -102,7 +102,7 @@ WriteAttributeValue("", 214, Model.imagemUrl, 214, 16, false);
             WriteLiteral("</h3></p>\r\n                <p class=\"btn btn-group pull-right\">\r\n                    ");
             EndContext();
             BeginContext(707, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2578e1cf824a4f4f84f9426eebe91f2b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bbe41643fc674f56970220b35f95d3d9", async() => {
                 BeginContext(776, 20, true);
                 WriteLiteral("Ver todos os lanches");
                 EndContext();
@@ -127,7 +127,7 @@ WriteAttributeValue("", 214, Model.imagemUrl, 214, 16, false);
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(822, 242, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e78d9907d6a6446d903ff99c32e363a6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49e54cc76e83486f9c377b73657538b5", async() => {
                 BeginContext(979, 36, true);
                 WriteLiteral("\r\n                        Adicionar ");
                 EndContext();
