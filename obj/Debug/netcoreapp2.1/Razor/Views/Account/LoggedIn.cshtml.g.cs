@@ -61,7 +61,7 @@ using LanchesMac.ViewModels;
             WriteLiteral("<br />\r\n<div class=\"container jumbotron\">\r\n    <div class=\"col-md-12\">\r\n        <h2 class=\"text-center\">Você foi registrado com sucesso. :)</h2>\r\n        <br />\r\n        ");
             EndContext();
             BeginContext(170, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c1e54b4a3b7c4989a6917a9bea73c169", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f85037c7792747d4afee36b4fa1f0b7e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

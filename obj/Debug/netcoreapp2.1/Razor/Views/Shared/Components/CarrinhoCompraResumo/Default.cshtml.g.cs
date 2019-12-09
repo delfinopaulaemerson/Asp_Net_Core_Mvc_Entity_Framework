@@ -68,7 +68,7 @@ using LanchesMac.ViewModels;
             WriteLiteral("    <li>\r\n        ");
             EndContext();
             BeginContext(113, 243, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9f81808a7e1141c7ad3031996ad9088b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "278e77520cf644a79a7cd3a2a4792718", async() => {
                 BeginContext(150, 124, true);
                 WriteLiteral("\r\n            <span class=\"glyphicon glyphicon-shopping-cart\"></span>\r\n            <span id=\"cart-status\">\r\n                ");
                 EndContext();

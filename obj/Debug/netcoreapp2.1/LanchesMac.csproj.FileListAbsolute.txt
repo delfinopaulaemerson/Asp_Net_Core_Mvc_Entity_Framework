@@ -47,3 +47,7 @@ C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.c
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\LogOut.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedIn.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
