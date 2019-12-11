@@ -72,12 +72,16 @@ namespace LanchesMac.Controllers
                 var user = new IdentityUser() { UserName = registroVm.UserName };
                 var result = await _userManager.CreateAsync(user,registroVm.Password);
 
-                if (result.Succeeded)
-                {
-                    return RedirectToAction("Index","Home");
-                }
+            if (result.Succeeded)
+            {
+                // Adiciona o usuário padrão ao perfil Member
+                await _userManager.AddToRoleAsync(user, "Member");
+                await _signInManager.SignInAsync(user, isPersistent: false);
+
+                return RedirectToAction("LoggedIn", "Account");
+            }
             //}
-            
+
             return View(registroVm);
         }
 
