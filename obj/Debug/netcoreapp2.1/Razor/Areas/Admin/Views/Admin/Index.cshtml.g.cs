@@ -64,7 +64,7 @@ using LanchesMac.ViewModels;
             WriteLiteral("<br />\r\n<br />\r\n");
             EndContext();
             BeginContext(16, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fb814419337e41bd8e685e605d32fae8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d6ad8f873dbe4061baa090c867e29b5b", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -83,7 +83,7 @@ using LanchesMac.ViewModels;
             WriteLiteral("\r\n<div class=\"container\">\r\n    <div class=\"jumbotron\">\r\n        <p>\r\n            Esta é a área do Administrador\r\n        </p>\r\n    </div>\r\n    ");
             EndContext();
             BeginContext(223, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c1c8123cb1749a28fae2503bcaf97ee", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "329b537066ee49c98e30f825aee2ac2f", async() => {
                 BeginContext(279, 17, true);
                 WriteLiteral("Volta a Home Page");
                 EndContext();

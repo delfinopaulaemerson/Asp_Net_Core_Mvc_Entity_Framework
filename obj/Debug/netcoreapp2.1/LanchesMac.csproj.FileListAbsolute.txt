@@ -66,3 +66,4 @@ C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminP
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminPedidos\Details.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminPedidos\Edit.cshtml.g.cs
 C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminPedidos\Index.cshtml.g.cs
+C:\_AppLanches\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Home\AccessDenied.cshtml.g.cs
